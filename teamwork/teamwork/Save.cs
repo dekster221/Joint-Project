@@ -29,7 +29,7 @@ namespace teamwork
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FileStream fs = new FileStream(@"C:КОЛЛЕДЖ\team.txt", FileMode.Create);
+            FileStream fs = new FileStream("Team.txt", FileMode.Create);
             StreamWriter streamWriter = new StreamWriter(fs);
 
             try
